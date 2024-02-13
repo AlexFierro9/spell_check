@@ -24,9 +24,9 @@ fn main() -> io::Result<()> {
 
     let mut symspell: SymSpell<AsciiStringStrategy> = SymSpell::default();
 
-    symspell.load_dictionary("C:/frequency_dictionary_en_82_765.txt", 0, 1, " ");
+    symspell.load_dictionary("C./frequency_dictionary_en_82_765.txt", 0, 1, " ");
     symspell.load_bigram_dictionary(
-        "C:/frequency_bigramdictionary_en_243_342.txt",
+        "C./frequency_bigramdictionary_en_243_342.txt",
         0,
         2,
         " ",
