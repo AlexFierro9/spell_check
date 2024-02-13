@@ -1,0 +1,10 @@
+[package]
+name = "spell_check"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+misspeller = "0.0.8"
+regex = "1.10.3"
+symspell = "0.4.3"
+time = "0.3.34"
