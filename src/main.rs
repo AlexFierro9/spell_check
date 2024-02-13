@@ -7,7 +7,7 @@ use regex::Regex;
 
 fn main() -> io::Result<()> {
     let mut words: Vec<String> = Vec::new();
-    let file = File::open("C:/misspelled.csv").expect("File not found");
+    let file = File::open("./misspelled.csv").expect("File not found");
     let reader = io::BufReader::new(file);
 
     
