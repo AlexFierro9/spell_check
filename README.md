@@ -1,4 +1,4 @@
-A spell check in rust that achieves a benchmark of 0.3 secs per thousand words on average.
+A spell check in rust that achieves a benchmark of 0.02 secs per thousand words on average.
 
 Benchmark Screenshots available below
 
